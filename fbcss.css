@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(224,227,238);
+}
+.header{
+    background-color: darkblue;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+}
+#facebook{
+    font-size:45px;
+    color: aliceblue;
+    font-family: initial;    
+}
+.main{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+}
+.footer{
+    background-color: azure;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+#lang-list{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.unor-list{
+    list-style: none;
+    display:table;
+    margin: 0;
+    
+}
+.unor-list li{
+    float: left;
+}
+.unor-list li a{
+    display: block;
+  color:blue;
+  text-align: center;
+  padding: 2px;
+  text-decoration: none
+}
